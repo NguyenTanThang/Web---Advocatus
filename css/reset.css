@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-fam-opensans);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--font-fam-playfair);
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+/*Button*/
+.btn{
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-family: var(--font-fam-playfair);
+    font-weight: bold;
+}

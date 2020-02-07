@@ -1,0 +1,72 @@
+@media (min-width: 767px) and (max-width: 1024px) {
+
+
+  header {
+    background-position: -600px 0px;
+  }
+
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  header {
+    background-position: -650px 0px;
+  }
+
+  .about-exp {
+    margin-top: 30px;
+  }
+
+  .area-item {
+    text-align: center;
+  }
+
+  #client-carousel .carousel-item .client-image img {
+    box-shadow: none;
+  }
+
+  #client-carousel .carousel-item .client-text {
+    margin-left: 0;
+  }
+
+  .faq-content{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer ul {
+    justify-content: space-around !important;
+  }
+
+  .contact-info{
+    margin-top: 40px;
+  }
+
+  .publication-item{
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  .team-item {
+    text-align: center;
+  }
+
+  .client-text {
+    margin-top: 50px;
+  }
+
+  .nav-link{
+    padding: 10px;
+    border-bottom: 1px solid #111;
+    margin-left: 0;
+    text-align: center;
+    width: 100%;
+  }
+}
