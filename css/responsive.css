@@ -1,16 +1,27 @@
 @media (min-width: 767px) and (max-width: 1024px) {
 
-
   header {
     background-position: -600px 0px;
   }
 
+}
 
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  header {
+    background-position: -300px 0px;
+  }
+
+  .nav-link{
+    border-bottom: none !important;
+    margin-left: 20px !important;
+  }
+  
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
   header {
-    background-position: -650px 0px;
+    background-position: -500px 0px;
   }
 
   .about-exp {
@@ -51,6 +62,18 @@
   .publication-item{
     margin-bottom: 30px;
   }
+
+  .nav-link.active::after{
+    width: 0%;
+}
+
+.nav-link:hover{
+    color: var(--primary-color);
+}
+
+.nav-link:hover::after{
+    width: 0%;
+}
 }
 
 @media (min-width: 320px) and (max-width: 1024px) {

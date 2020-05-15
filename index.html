@@ -23,9 +23,9 @@
 <body>
 
   <!-- Navigator -->
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg" id="my-nav">
     <div class="container">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="#home">
         <h1>ADVOCATUS.</h1>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -35,22 +35,22 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">About us</a>
+            <a class="nav-link" href="#about">About us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">practice area</a>
+            <a class="nav-link" href="#area">practice area</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">lawyers</a>
+            <a class="nav-link" href="#team">lawyers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">publication</a>
+            <a class="nav-link" href="#publication">publication</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">faq</a>
+            <a class="nav-link" href="#faq">faq</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">contact</a>
+            <a class="nav-link" href="#contact">contact</a>
           </li>
         </ul>
       </div>
@@ -59,7 +59,7 @@
   <!-- Navigator end -->
 
   <!-- Header -->
-  <header>
+  <header id="home">
     <div class="header-content">
       <div class="container d-flex align-items-center justify-content-between flex-wrap">
 
@@ -637,6 +637,12 @@
   </script>
   <!-- Optional JavaScript -->
   <script src="js/main.js"></script>
+  <script src="js/gumshoe.js"></script>
+  <script src="js/smooth-scroll.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+    var spy = new Gumshoe('#my-nav a');
+  </script>
 </body>
 
 </html>
